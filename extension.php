@@ -23,13 +23,11 @@ class Extension extends \Bolt\BaseExtension
             'author' => "Prasetyo Wicaksono",
             'link' => "http://google.com/",
             'version' => "0.1",
-            'required_bolt_version' => "1.4",
-            'highest_bolt_version' => "1.4",
-            'type' => "General",
+            'required_bolt_version' => "1.0",
+            'highest_bolt_version' => "1.0",
+            'type' => "Twig function",
             'first_releasedate' => "2014-02-12",
             'latest_releasedate' => "2014-02-12",
-            'dependencies' => "",
-            'priority' => 10
         );
 
         return $data;
